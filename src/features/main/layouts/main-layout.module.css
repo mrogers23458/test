@@ -1,0 +1,29 @@
+.mainlayout {
+    display: grid;
+    grid-template-rows: 1fr 12fr;
+    /* 3 rows with equal height */
+    gap: 0;
+    /* Space between grid items */
+    width: 100%;
+    /* Adjust width as needed */
+    max-width: 100%;
+    /* Optional max width */
+    margin: auto;
+    /* Center the grid horizontally */
+    height: 100%;
+}
+
+.maincontainer {
+    display: grid;
+    grid-template-columns: minmax(50px, auto) 1fr minmax(50px, auto);
+    gap: 0;
+    max-width: 100%;
+    width: 100vw;
+    /* Ensures container spans full viewport width */
+}
+
+main {
+
+    height: 100%;
+    padding: 1rem;
+}
